@@ -10,7 +10,7 @@ TEST(KMP, NotFound) {
 }
 
 TEST(LPS, CorrectValues) {
-    std::vector<int> expected = {0, 0, 0, 1, 2, 0, 1};
+    std::vector<int> expected = {0, 0, 1, 2, 0, 1, 2};
     EXPECT_EQ(computeLPS("ababcab"), expected);
 }
 
