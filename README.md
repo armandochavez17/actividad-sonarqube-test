@@ -1,1 +1,0 @@
-# actividad-sonarqube-test
